@@ -119,3 +119,205 @@ padding: 12px 4px 12px 12px;
  .header-cover__img{
   background-repeat: no-repeat;
 }
+
+/* ---------------------------------- */
+
+#main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1120px;
+  margin: auto;
+  margin-bottom: 150px;
+  }
+  .main-aside{
+  padding: 32px;
+  background: #23262F;
+  border: 1px solid #353945;
+  box-shadow: 0px 40px 32px -24px rgba(15, 15, 15, 0.12);
+  border-radius: 16px;
+  width: 256px;
+  position: absolute;
+  height: 700px;
+  left: 140px;
+  right: 160px;
+  top: 300px;
+  }
+  .aside-user_image{
+  width: 160px;
+  height: 160px;
+  background: #45B36B;
+  border-radius: 128px;
+  margin-left: 16px;
+  }
+  .aside-user_name{
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FCFCFD;
+  padding: 24px 0 4px;
+  text-align: center;
+  }
+  .main-aside h6{
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #23262F;
+  padding-bottom: 20px;
+  text-align: center;
+  }
+  .main-aside p{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #777E91;
+  order: 1;
+  padding-bottom: 10px;
+  text-align: center;
+  }
+  .main-aside a{
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FCFCFD;
+  padding-left: 9px;
+  }
+  .user-action__button{
+  padding: 12px 16px;
+  background: #3772FF;
+  border-radius: 90px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #FCFCFD;
+  border: none;
+  margin: 20px 4px 40px 0;
+  }
+  .user-actions i{
+    margin-left:10px;
+    color: #777E91;
+  }
+  .user-contacts{
+   width: 120px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   /* margin: auto; */
+   border-bottom: 1px solid #E6E8EC;
+   margin-bottom: 40px;
+  }
+  .user-contacts i {
+    padding-bottom: 48px;
+    color: #777E91;
+  }
+  .main-info{
+    margin-left: 350px;
+    margin-top: 50px;
+  }
+  .main-nav{
+  display: flex;
+  align-items: center;
+  }
+  .main-nav li{
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #777E91;
+  margin-left: 24px;
+  }
+  .main-nav li:hover{
+  background: #E6E8EC;
+  border-radius: 100px;
+  color: #23262F;
+  padding: 6px 12px;
+  }
+  .main-info__products{
+    margin-top: 38px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    height: 450px;
+  }
+  .info_product__card{
+    width: 240px;
+    height: 450px; 
+  }
+  .main-info__products img{
+   border-radius: 10px;
+   margin-bottom: 21px;
+  }
+  .main-info__title{
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FCFCFD;
+  }
+  .main-info__title span{
+   border: 2px solid #45B36B;
+   border-radius: 4px;
+   font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    color: #45B36B;
+    margin-left: 20px;
+    padding: 7px;
+  }
+  .main-info__avatars{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid #353945;
+  }
+  .main-info__avatars img{
+    margin-top: 15px;
+  }
+  .main-info__avatars p{
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: right;
+  color: #E6E8EC;
+  }
+  
+  .new-bid{
+    display: flex;
+    align-items: center;
+  }
+  .new-bid img{
+    margin-top: 15px;
+    padding-right: 2px;
+  }
+  .new-bid_title{
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    color: #777E91;
+  }
+  .new-bid_title span{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #FCFCFD;
+    padding-left: 4px;
+    padding-right: 29px;
+  }
+  
+  /*--------------------------------  */
